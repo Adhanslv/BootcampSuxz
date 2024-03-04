@@ -11,7 +11,7 @@ const CompanySection = () => {
 	return (
 		<div className="px-[10vw]">
 			<div>
-				<h1 className="text-center text-[44px] font-bold mb-4">
+				<h1 className="text-center text-[44px] font-bold mb-4 mobile:text-[34px] ">
 					Companies That Recruites Our Graduates
 				</h1>
 				<p className="text-center text-[20px] ">

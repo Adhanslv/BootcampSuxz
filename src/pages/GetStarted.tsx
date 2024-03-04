@@ -8,7 +8,7 @@ const GetStarted = () => {
 			<Image
 				src={Backgron}
 				alt="ini fotonya"
-				className="w-full brightness-50 mobile:aspect-video mobile:object-cover"
+				className="w-full brightness-50 mobile:aspect-video mobile:object-cover "
 			/>
 			<div className="relative  -mt-64  flex flex-col items-center mobile:-mt-44 ">
 				<h1 className="font-bold text-center text-white text-[40px] mobile:text-[23px] ">

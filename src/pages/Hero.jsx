@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
 	return (
-		<div className="hero-section grid grid-cols-10 items-center px-[10vw] mt-40 mobile:-mt-16">
+		<div className="hero-section grid grid-cols-10 items-center px-[10vw] mt-40 mobile:mt-20">
 			<div className="col-span-4 tablet:col-span-6 tablet:mt-72  mobile:col-span-12 mobile:mt-80  ">
 				<h3 className="text-unguJanda text-xl  mb-2 font-semibold">
 					SUXZ MAKE IT EASY{" "}

@@ -24,7 +24,7 @@ const Testimoni = () => {
 						src={Avatar1}
 						width={85}
 						alt="fotonya disini"
-						className=" mx-20 -mt-14 mobile:mx-20"
+						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px] "
 					/>
 					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
 					<p className="text-center text-black/40 mb-4">Enterpreneur</p>
@@ -38,7 +38,7 @@ const Testimoni = () => {
 						src={Avatar2}
 						width={85}
 						alt="fotonya disini"
-						className=" mx-20 -mt-14 mobile:mx-20"
+						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px]"
 					/>
 					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
 					<p className="text-center text-black/40 mb-4">Web Developer</p>
@@ -52,7 +52,7 @@ const Testimoni = () => {
 						src={Avatar3}
 						width={85}
 						alt="fotonya disini"
-						className=" mx-20 -mt-14 mobile:mx-20"
+						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px]"
 					/>
 					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
 					<p className="text-center text-black/40 mb-4">PHP Enthusiat</p>
@@ -66,7 +66,7 @@ const Testimoni = () => {
 						src={Avatar4}
 						width={85}
 						alt="fotonya disini"
-						className=" mx-20 -mt-14 mobile:mx-20"
+						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px]"
 					/>
 					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
 					<p className="text-center text-black/40 mb-4">Designer</p>
