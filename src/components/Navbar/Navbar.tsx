@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 	return (
-		<div className="px-[10vw] py-4 bg-white top-0 right-0 left-0 fixed tablet:px-12 mobile:px-7	">
+		<div className="px-[10vw] py-4 bg-white top-0 right-0 left-0 fixed z-50 tablet:px-12 mobile:px-7	">
 			<div className="flex items-center justify-between">
 				<div className="flex items-center justify-between">
 					<div className="flex items-center mr-12 ">

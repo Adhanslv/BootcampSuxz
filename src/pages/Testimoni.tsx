@@ -40,7 +40,7 @@ const Testimoni = () => {
 						alt="fotonya disini"
 						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px]"
 					/>
-					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
+					<h1 className="text-center text-xl font-bold">Cassandra K</h1>
 					<p className="text-center text-black/40 mb-4">Web Developer</p>
 					<p className="text-center text-black">
 						“The mentor is cool, how to convey each material is also detailed
@@ -54,7 +54,7 @@ const Testimoni = () => {
 						alt="fotonya disini"
 						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px]"
 					/>
-					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
+					<h1 className="text-center text-xl font-bold">Peter Parker</h1>
 					<p className="text-center text-black/40 mb-4">PHP Enthusiat</p>
 					<p className="text-center text-black">
 						“The mentor is cool, how to convey each material is also detailed
@@ -68,7 +68,7 @@ const Testimoni = () => {
 						alt="fotonya disini"
 						className=" mx-20 -mt-14 mobile:mx-20 mobile:w-[103px]"
 					/>
-					<h1 className="text-center text-xl font-bold">Jason Todd</h1>
+					<h1 className="text-center text-xl font-bold">Jean Gray</h1>
 					<p className="text-center text-black/40 mb-4">Designer</p>
 					<p className="text-center text-black">
 						“The mentor is cool, how to convey each material is also detailed
