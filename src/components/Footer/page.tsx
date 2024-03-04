@@ -1,8 +1,9 @@
 import React from "react";
-import { FaPhoneAlt } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
 import Logo from "../../img/icon.png";
 import Image from "next/image";
+import Link from "next/link";
 const Footter = () => {
 	return (
 		<div className="px-[10vw] items-center  mt-44 mb-6 grid grid-cols-10 tablet:block mobile:block">
@@ -34,14 +35,20 @@ const Footter = () => {
 			<div className="col-span-2 ">
 				<div className="mb-4 text-xl font-semibold mt-3">Contact</div>
 				<div className="flex flex-col gap-y-3">
-					<p className="text-unguJanda flex items-center gap-x-3 cursor-pointer">
-						<FaPhoneAlt size={22} />
-						(021) 31048184
-					</p>
-					<p className="text-unguJanda flex items-center gap-x-3 cursor-pointer">
-						<IoIosMail size={22} />
-						asyhabr@suxz.com
-					</p>
+					<Link
+						href={"https://github.com/Adhanslv"}
+						className="text-unguJanda flex items-center gap-x-3 cursor-pointer"
+					>
+						<FaGithub size={22} />
+						Adhanslv
+					</Link>
+					<Link
+						href={"https://www.instagram.com/ash4rr/"}
+						className="text-unguJanda flex items-center gap-x-3 cursor-pointer"
+					>
+						<IoLogoInstagram size={22} />
+						ash4rr
+					</Link>
 					<p>
 						Jl. Sultan Alimudin Perum Padat Karya Gg.Karya Indah Blok A
 						Kec.Samarinda Ilir 54422
