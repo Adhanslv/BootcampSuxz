@@ -15,7 +15,7 @@ const GetStarted = () => {
 					So? What Are You Waiting For
 				</h1>
 				<p className="text-center text-white/50  mobile:text-[15px] ">
-					It's time to build your career, study in a relaxed and purposeful
+					Its time to build your career, study in a relaxed and purposeful
 					manner
 				</p>
 				<div className="flex items-center gap-x-12 ">
