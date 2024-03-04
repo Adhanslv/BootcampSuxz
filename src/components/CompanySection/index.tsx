@@ -12,7 +12,7 @@ const CompanySection = () => {
 		<div className="px-[10vw]">
 			<div>
 				<h1 className="text-center text-[44px] font-bold mb-4">
-					Companies Thet Recruites Our Graduates
+					Companies That Recruites Our Graduates
 				</h1>
 				<p className="text-center text-[20px] ">
 					Our graduates have worked in more than 400 companies around the World

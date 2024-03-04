@@ -4,9 +4,11 @@ import Image from "next/image";
 
 const HeroSection = () => {
 	return (
-		<div className="grid grid-cols-10 items-center px-[10vw] pt-40 mobile:-mt-16">
+		<div className="hero-section grid grid-cols-10 items-center px-[10vw] mt-40 mobile:-mt-16">
 			<div className="col-span-4 tablet:col-span-6 tablet:mt-72  mobile:col-span-12 mobile:mt-80  ">
-				<h3 className="text-unguJanda text-xl  mb-2">SUXZ MAKE IT EASY </h3>
+				<h3 className="text-unguJanda text-xl  mb-2 font-semibold">
+					SUXZ MAKE IT EASY{" "}
+				</h3>
 				<h1 className="text-[64px] leading-tight font-bold mb-4 mobile:text-[39px]">
 					Find Your Way Of Success{" "}
 				</h1>
@@ -24,11 +26,7 @@ const HeroSection = () => {
 				</div>
 			</div>
 			<div className="col-span-6 -mb-60 tablet:order-first tablet:col-span-9 tablet:mt-20   mobile:order-first mobile:col-span-9 mobile:mt-12 ">
-				<Image
-					src={ContentImage}
-					alt="ini fotonya"
-					className="object-cover -mt-10"
-				/>
+				<Image src={ContentImage} alt="ini fotonya" className=" -mt-10" />
 			</div>
 		</div>
 	);

@@ -84,7 +84,7 @@ const Navbar = () => {
 					>
 						Testimonial
 					</Link>
-					<div className=" h-px	 my-1 w-full bg-black/10 " />
+					<div className=" h-px	 my-1 w-full bg-black/20 " />
 					<Link
 						href={"/"}
 						className="px-4 py-2 block hover:bg-black/10 hover:rounded-md"
