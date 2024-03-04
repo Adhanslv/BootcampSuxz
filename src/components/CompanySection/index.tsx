@@ -1,11 +1,11 @@
 import React from "react";
-import Github from "../../img/Companies/Github.png";
-import Linkedin from "../../img/Companies/Linkedin.png";
-import Medium from "../../img/Companies/medium.png";
-import Microsoft from "../../img/Companies/Microsoft.png";
-import Paypal from "../../img/Companies/paypal.png";
-import Reddit from "../../img/Companies/Reddit.png";
-import Redis from "../../img/Companies/redis.png";
+import Github from "../../img/Github.png";
+import Linkedin from "../../img/Linkedin.png";
+import Medium from "../../img/Medium.png";
+import Microsoft from "../../img/Microsoft.png";
+import Paypal from "../../img/Group 18.png";
+import Reddit from "../../img/Reddit.png";
+import Redis from "../../img/Group.png";
 import Image from "next/image";
 const CompanySection = () => {
 	return (
