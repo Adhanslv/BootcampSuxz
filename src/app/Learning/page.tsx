@@ -43,11 +43,20 @@ function LearningPage() {
 					/>
 					<h1 className="font-bold text-2xl mb-2">What is bootcamp?</h1>
 					<p className="text-justify">
-						Greetings fellow developers! 👋 Today, Im thrilled to share with you
-						the story behind the creation of @codebayu/use-hydration-zustand, a
-						powerful solution born out of the necessity to overcome state
-						hydration challenges in React applications, particularly when
-						dealing with Zustands persist state.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+						commodi placeat natus perferendis eligendi, illum ipsum excepturi
+						voluptates cumque aliquam sapiente necessitatibus, est nisi optio
+						sit consectetur voluptate vel quibusdam. Dolore itaque hic
+						asperiores a provident porro debitis odio placeat repudiandae sint
+						aspernatur ipsa tenetur nostrum, nemo quos deserunt magnam ad vel?
+						Quaerat magnam non molestiae provident aliquam repellat porro quod
+						facilis odit asperiores voluptates optio nisi ex ea quae, dolor
+						laudantium molestias natus, quo delectus officiis eveniet illum
+						error voluptatibus. Molestiae maxime eius non mollitia unde quos
+						animi adipisci suscipit, facere dicta optio temporibus sint neque?
+						Animi dignissimos consectetur facere praesentium odio illum.
+						Veritatis necessitatibus odit incidunt sunt impedit quam nisi quia
+						obcaecati quis consequatur, repudiandae labore cumque asperiores!
 					</p>
 				</div>
 			</div>
