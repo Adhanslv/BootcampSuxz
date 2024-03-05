@@ -25,7 +25,7 @@ const HeroSection = () => {
 					</button>
 				</div>
 			</div>
-			<div className="col-span-6 -mb-60 tablet:order-first tablet:col-span-9 tablet:mt-20   mobile:order-first mobile:col-span-9 mobile:mt-12 ">
+			<div className="col-span-6 -mb-60 tablet:order-first tablet:col-span-9  tablet:mt-20   mobile:order-first mobile:col-span-9 mobile:mt-12 ">
 				<Image src={ContentImage} alt="ini fotonya" className=" -mt-10" />
 			</div>
 		</div>

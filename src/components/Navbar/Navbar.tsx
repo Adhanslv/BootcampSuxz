@@ -9,30 +9,30 @@ const Navbar = () => {
 	const [open, setOpen] = useState(false);
 	return (
 		<div className="px-[10vw] py-4 bg-white top-0 right-0 left-0 fixed z-50 tablet:px-12 mobile:px-7	">
-			<div className="flex items-center justify-between">
-				<div className="flex items-center justify-between">
+			<div className="flex  justify-between">
+				<div className="flex  justify-between">
 					<div className="flex items-center mr-12 ">
 						{/* <NavbarResponsive /> */}
 						<Image
 							src={logoProduct}
 							alt="ini logonya"
-							width={120}
+							width={100}
 							className="mobile:w-[80px] mobile:items-center"
 						/>
 					</div>
-					<div className="flex items-center gap-x-4 mr-12 tablet:hidden mobile:hidden">
-						<a href="" className="px-4 py-2">
+					<div className="flex items-center gap-x-4 mt-1  tablet:hidden mobile:hidden">
+						<Link href="/" className="px-4 py-2">
 							Home
-						</a>
+						</Link>
 						<Link href="/Learning" className="px-4 py-2">
 							Learning
 						</Link>
-						<a href="" className="px-4 py-2">
+						<Link href="" className="px-4 py-2">
 							About Us
-						</a>
-						<a href="" className="px-4 py-2">
+						</Link>
+						<Link href="" className="px-4 py-2">
 							Testimonial
-						</a>
+						</Link>
 					</div>
 				</div>
 				<div className="flex items-center  gap-x-6  ">
@@ -67,13 +67,13 @@ const Navbar = () => {
 						Home
 					</Link>
 					<Link
-						href={"/"}
+						href={"/Learning"}
 						className="px-4 py-2 block hover:bg-black/10 hover:rounded-md"
 					>
 						Learning
 					</Link>
 					<Link
-						href={"/"}
+						href={""}
 						className="px-4 py-2 block hover:bg-black/10 hover:rounded-md"
 					>
 						About Us

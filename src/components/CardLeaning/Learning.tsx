@@ -6,6 +6,7 @@ import Learn3 from "../../img/learn3.png";
 import Learn4 from "../../img/learn4.png";
 import Image from "next/image";
 import SeeClass from "../ButtonLearning";
+import Link from "next/link";
 
 const LearningSection = () => {
 	return (
@@ -25,11 +26,15 @@ const LearningSection = () => {
 			<div className="grid grid-cols-4 gap-x-4 mt-16 mobile:flex-col mobile:gap-y-4 mobile:w-full tablet:grid-cols-2 tablet:gap-y-4 mobile:flex  ">
 				<CardLearning>
 					<Image src={Learn1} alt="fotonya disini" className="mb-4 w-24" />
-					<h1 className="font-bold text-xl mb-3">Starter</h1>
+					<Link href="/Learning" className="hover:text-unguJanda/50">
+						<h1 className="font-bold text-xl mb-3">Starter</h1>
+					</Link>
 					<p className="mb-4 text-[14px]">
 						Free class access for that start learning code and design
 					</p>
-					<SeeClass>See Class</SeeClass>
+					<Link href="/Learning">
+						<SeeClass>See Class</SeeClass>
+					</Link>
 				</CardLearning>
 				<CardLearning>
 					<Image src={Learn2} alt="fotonya disini" className="mb-4 w-24" />
@@ -37,7 +42,9 @@ const LearningSection = () => {
 					<p className="mb-4 text-[14px]">
 						Advanced material from the Starter & learn to build projects
 					</p>
-					<SeeClass>See Clas</SeeClass>
+					<Link href="">
+						<SeeClass>See Clas</SeeClass>
+					</Link>
 				</CardLearning>
 				<CardLearning>
 					<Image src={Learn3} alt="fotonya disini" className="mb-4 w-24" />
