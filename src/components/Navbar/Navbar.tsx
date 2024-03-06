@@ -24,7 +24,7 @@ const Navbar = () => {
 						<Link href="/" className="px-4 py-2">
 							Home
 						</Link>
-						<Link href="/Learning" className="px-4 py-2">
+						<Link href="/Starter" className="px-4 py-2">
 							Learning
 						</Link>
 						<Link href="" className="px-4 py-2">
@@ -67,7 +67,7 @@ const Navbar = () => {
 						Home
 					</Link>
 					<Link
-						href={"/Learning"}
+						href={"/Starter"}
 						className="px-4 py-2 block hover:bg-black/10 hover:rounded-md"
 					>
 						Learning

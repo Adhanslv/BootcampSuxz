@@ -26,13 +26,13 @@ const LearningSection = () => {
 			<div className="grid grid-cols-4 gap-x-4 mt-16 mobile:flex-col mobile:gap-y-4 mobile:w-full tablet:grid-cols-2 tablet:gap-y-4 mobile:flex  ">
 				<CardLearning>
 					<Image src={Learn1} alt="fotonya disini" className="mb-4 w-24" />
-					<Link href="/Learning" className="hover:text-unguJanda/50">
+					<Link href="/Starter">
 						<h1 className="font-bold text-xl mb-3">Starter</h1>
 					</Link>
 					<p className="mb-4 text-[14px]">
 						Free class access for that start learning code and design
 					</p>
-					<Link href="/Learning">
+					<Link href="/Starter">
 						<SeeClass>See Class</SeeClass>
 					</Link>
 				</CardLearning>
